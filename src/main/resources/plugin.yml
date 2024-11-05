@@ -1,0 +1,27 @@
+name: HelpfulCommands
+version: '${project.version}'
+main: dev.katarina.helpfulcommands.HelpfulCommands
+api-version: '1.20'
+
+commands:
+  feed:
+    description: Hungry no more!
+    usage: /<command>
+    aliases:
+      - eat
+  heal:
+    description: Sets Health to max!
+    usage: /<command>
+  nightvision:
+    description: To see in the dark!
+    usage: /<command>
+    aliases:
+      - nv
+  hit:
+    description: To damage player by 1 heart
+    usage: /<command> <player> <damage>
+    aliases:
+      - hurt
+      - damage
+
+
